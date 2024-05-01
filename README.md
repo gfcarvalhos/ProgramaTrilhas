@@ -1,4 +1,4 @@
-# Programa Trilhas - Back end
+# Programa Trilhas - Backend
 
 ## Atividades finalizadas
 
