@@ -52,6 +52,19 @@ body {
   justify-content: space-between;
 }
 
+.div_texto_input{
+  width: 100%;
+  margin-left: 10%;
+  display: flex;
+}
+
+.indicador{
+  color: red;
+  align-self: flex-start;
+  margin-left: 1%;
+  margin-top: 3%;
+}
+
 .principal__formulario__input_dados {
   margin-top: 3%;
   width: 85%; 
