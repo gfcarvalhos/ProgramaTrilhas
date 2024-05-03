@@ -93,7 +93,7 @@ body {
 }
 
 .principal__logo_e_frase__logo-trilhas {
-  width: 70%;
+  width: 80%;
   margin-top: 60%;
   height: auto;
 }
@@ -159,22 +159,32 @@ body {
 }
 
 .principal__formulario__button {
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: space-between;
   margin-top: 15%;
 
 }
 
+.texto_validacao {
+  color: red;
+  align-self: flex-start;
+  margin-top: 2%;
+  margin-left: 3%;
+}
+
 .cancelar-btn {
-  width: 100%;
+  height: auto;
   background-color: white;
   border: 2px solid green;
   color: green; /* Define a cor do texto como verde */
-  padding: 10% 20%; /* Adicione o preenchimento para melhorar a aparência */
+  padding: 2% 15%; /* Adicione o preenchimento para melhorar a aparência */
   font-size: 1em; /* Ajuste o tamanho da fonte conforme necessário */
   border-radius: 8px;
   text-align: center;
-  margin-left: -180%;
+  margin-left: 10%;
+
 }
 
 .cancelar-btn:hover {
@@ -187,18 +197,17 @@ body {
 }
 
 .enviar-btn {
-  width: 100%;
   display: flex;
   align-self: center;
   justify-self: center;
   background-color: green;
   border: 2px solid green;
   color: white;
-  padding: 10% 50%;
+  padding: 2% 15%;
   text-align: center;
   font-size: 1em;
   border-radius: 8px;
-  margin-left: 250%;
+  margin-right: 10%;
 }
 
 .enviar-btn:hover {
