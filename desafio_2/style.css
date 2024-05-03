@@ -82,8 +82,13 @@ body {
 }
 
 .principal__formulario__input_dados::placeholder {
-  font-size: 1em;
+  font-size: 0.75em;
   color: #000000;
+  padding-left: 2%;
+}
+
+.principal__formulario__input_dados:focus::placeholder {
+  color: transparent;
 }
 
 .principal__logo_e_frase {
@@ -112,15 +117,15 @@ body {
 }
 
 .principal__formulario__doc {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
-  gap: 3%;
+  justify-content:space-around;
 }
 
 .principal__formulario__doc__texto{
   color: black;
   margin-top: 8%;
-  margin-left: 2%;
+  margin-left: 4%;
 }
 
 .principal__formulario__doc__identidade {
@@ -129,7 +134,6 @@ body {
   display: flex;
   align-items: center;
   border: 2px solid #CACACA;
-  gap: 1%;
   border-radius: 6px;
   margin-top: 3%;
 }
@@ -143,28 +147,45 @@ body {
 }
 
 .upload-text {
-  font-size: 0.8em;
+  font-size: 0.7em;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .upload-text2 {
-  font-size: 0.7em;
+  font-size: 0.6em;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   font-style: normal;
 }
 
 .principal__formulario__doc__botao{
-  display:none;
+  display: none;
 }
 
 .principal__formulario__doc__botao2{
-  display:block;
-  width: 40%; 
+  width: 30%; 
   height: 100%;
-  margin-right: 5%;
+  margin-right: 3%;
+  background-color: white;
+  border: 2px solid #097E90;
+  color: #097E90;
+  padding: 2% 1.5%;
+  font-size: 0.7em;
+  font-weight: 600;
+  border-radius: 8px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.principal__formulario__doc__botao2:hover {
+  background-color: #097E90; 
+  color: white; 
+}
+
+.principal__formulario__doc__botao2:active {
+  background-color: #006A7C; 
 }
 
 .principal__formulario__doc__upload-icon{
@@ -184,16 +205,16 @@ body {
   color: red;
   align-self: flex-start;
   margin-top: 2%;
-  margin-left: 3%;
+  margin-left: 6%;
 }
 
 .cancelar-btn {
   height: auto;
   background-color: white;
   border: 2px solid green;
-  color: green; /* Define a cor do texto como verde */
-  padding: 2% 15%; /* Adicione o preenchimento para melhorar a aparência */
-  font-size: 1em; /* Ajuste o tamanho da fonte conforme necessário */
+  color: green; 
+  padding: 2% 15%; 
+  font-size: 1em; 
   border-radius: 8px;
   text-align: center;
   margin-left: 10%;
@@ -201,12 +222,12 @@ body {
 }
 
 .cancelar-btn:hover {
-  background-color: green; /* Altera o fundo para verde quando o mouse passa sobre o botão */
-  color: white; /* Altera a cor do texto para branco */
+  background-color: green; 
+  color: white; 
 }
 
 .cancelar-btn:active {
-  background-color: darkseagreen; /* Altera o fundo para uma tonalidade mais clara de verde quando o botão é clicado */
+  background-color: darkseagreen;
 }
 
 .enviar-btn {
