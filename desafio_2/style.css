@@ -34,17 +34,17 @@ body {
 }
 
 .principal__formulario__titulo_formulario {
-  margin-top: 2%;
+  margin-top: 6%;
   color: black;
-  font-size: 2em;
+  font-size: 2.5em;
   font-family: 'Poppins', sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   font-style: normal;
 }
 
 .principal__formulario__input {
   margin-top: 2%;
-  margin-bottom: 40%;
+  margin-bottom: 10%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -63,16 +63,19 @@ body {
   font-style: normal;
   font-size: 1.2em;
   padding-left: 2%;
-  padding: 3%;
+  padding: 2%;
+  background-color: #C4E5D2;
+  border: none;
 }
 
 .principal__formulario__input_dados::placeholder {
   font-size: 1em;
+  color: #000000;
 }
 
 .principal__logo_e_frase {
   width: 40%;
-  height: 80%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -81,7 +84,7 @@ body {
 }
 
 .principal__logo_e_frase__frase_efeito {
-  font-size: 2em;
+  font-size: 2.65em;
   margin: 0px auto;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
@@ -90,7 +93,119 @@ body {
 }
 
 .principal__logo_e_frase__logo-trilhas {
-  width: 55%;
-  margin-top: 50%;
+  width: 70%;
+  margin-top: 60%;
   height: auto;
+}
+
+.principal__formulario__doc {
+  display: flex;
+  justify-content: space-between;
+  gap: 3%;
+}
+
+.principal__formulario__doc__texto{
+  color: black;
+  margin-top: 8%;
+  margin-left: 2%;
+}
+
+.principal__formulario__doc__identidade {
+  width: 90%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  border: 2px solid #CACACA;
+  gap: 1%;
+  border-radius: 6px;
+  margin-top: 3%;
+}
+
+.principal__formulario__doc__selecionar {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.upload-text {
+  font-size: 0.8em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.upload-text2 {
+  font-size: 0.7em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.principal__formulario__doc__botao{
+  display:none;
+}
+
+.principal__formulario__doc__botao2{
+  display:block;
+  width: 40%; 
+  height: 100%;
+  margin-right: 5%;
+}
+
+.principal__formulario__doc__upload-icon{
+  margin-left: 4%;
+}
+
+.principal__formulario__button {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15%;
+
+}
+
+.cancelar-btn {
+  width: 100%;
+  background-color: white;
+  border: 2px solid green;
+  color: green; /* Define a cor do texto como verde */
+  padding: 10% 20%; /* Adicione o preenchimento para melhorar a aparência */
+  font-size: 1em; /* Ajuste o tamanho da fonte conforme necessário */
+  border-radius: 8px;
+  text-align: center;
+  margin-left: -180%;
+}
+
+.cancelar-btn:hover {
+  background-color: green; /* Altera o fundo para verde quando o mouse passa sobre o botão */
+  color: white; /* Altera a cor do texto para branco */
+}
+
+.cancelar-btn:active {
+  background-color: darkseagreen; /* Altera o fundo para uma tonalidade mais clara de verde quando o botão é clicado */
+}
+
+.enviar-btn {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  background-color: green;
+  border: 2px solid green;
+  color: white;
+  padding: 10% 50%;
+  text-align: center;
+  font-size: 1em;
+  border-radius: 8px;
+  margin-left: 250%;
+}
+
+.enviar-btn:hover {
+  background-color: darkgreen; 
+  color: white; 
+}
+
+.enviar-btn:active {
+  background-color: darkseagreen; 
 }
