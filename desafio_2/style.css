@@ -111,7 +111,7 @@ body {
 }
 
 .principal__logo_e_frase__logo-trilhas {
-  width: 80%;
+  width: 90%;
   margin-top: 60%;
   height: auto;
 }
@@ -122,10 +122,19 @@ body {
   justify-content:space-around;
 }
 
+.principal__formulario__doc__div_texto{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8%;
+  margin-left: 2%;
+}
+
 .principal__formulario__doc__texto{
   color: black;
-  margin-top: 8%;
-  margin-left: 4%;
+  margin-bottom: 2%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
 }
 
 .principal__formulario__doc__identidade {
@@ -133,31 +142,36 @@ body {
   height: auto;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 3.5% 3%;
   border: 2px solid #CACACA;
   border-radius: 6px;
-  margin-top: 3%;
 }
 
 .principal__formulario__doc__selecionar {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  margin-top: 4%;
-  margin-bottom: 4%;
+  align-items: center;
 }
 
 .upload-text {
-  font-size: 0.7em;
+  width: 70%;
+  text-align: center;
+  color: black;
+  font-size: 1em;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .upload-text2 {
+  width: auto;
   font-size: 0.6em;
+  color: black;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   font-style: normal;
+  text-align: center;
 }
 
 .principal__formulario__doc__botao{
@@ -166,13 +180,11 @@ body {
 
 .principal__formulario__doc__botao2{
   width: 30%; 
-  height: 100%;
-  margin-right: 3%;
   background-color: white;
   border: 2px solid #097E90;
   color: #097E90;
-  padding: 2% 1.5%;
-  font-size: 0.7em;
+  padding: 1.5% 1%;
+  font-size: 1em;
   font-weight: 600;
   border-radius: 8px;
   text-align: center;
@@ -185,11 +197,11 @@ body {
 }
 
 .principal__formulario__doc__botao2:active {
-  background-color: #006A7C; 
+  background-color: #003040; 
 }
 
 .principal__formulario__doc__upload-icon{
-  margin-left: 4%;
+  margin-left: 1%;
 }
 
 .principal__formulario__button {
