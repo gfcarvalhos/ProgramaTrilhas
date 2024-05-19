@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+  --cor-background: #2b2b2b;
+  --cor-primaria: #6276e7;
+  --cor-secundaria: #f6f6f6;
+
+  --fonte-primaria: 'Do Hyeon', sans-serif;
+  --fonte-secundaria: 'Lato', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cabecalho {
+  background-color: var(--cor-background);
+  align-items: center;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: var(--cor-background);
+  color: var(--cor-secundaria);
+}
+
+.apresentacao {
+}
+
+.apresentacao--titulo {
+  color: white;
+}
+
+.apresentacao--titulo-sobrenome {
+  color: #6276e7;
+}
+
+.rodape {
+  background-color: var(--cor-background);
+}
