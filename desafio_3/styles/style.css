@@ -53,10 +53,10 @@ body {
 }
 
 .apresentacao {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
-  padding: 3% 10% 0% 10%;
-  gap: 1rem;
+  justify-content: center;
+  padding: 3% 0% 0% 0%;
 }
 
 .apresentacao--texto {
@@ -119,11 +119,29 @@ body {
   width: 10%;
 }
 
-.apresentacao--foto {
-  width: 35%;
+.apresentacao--imagem {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.apresentacao--imagem--foto {
+  width: 29.25rem;
   height: auto;
-  border-color: #6276e7;
+  z-index: 2;
   border-radius: 5%;
+}
+
+.apresentacao--imagem--index {
+  position: absolute;
+  width: 29.25rem;
+  height: 98%;
+  bottom: 5%; /* ajuste de posição vertical */
+  left: 5%; /* ajuste de posição horizontal */
+  border-radius: 5%;
+  border: 3px solid var(--cor-primaria);
+  z-index: 1;
 }
 
 .rodape {
