@@ -17,7 +17,7 @@
 }
 
 .cabecalho {
-  padding: 0% 0% 0% 0%;
+  padding: 0;
 }
 
 .cabecalho--menu {
@@ -25,7 +25,7 @@
   align-items: center;
   justify-content: center;
   gap: 4rem;
-  padding: 3% 0% 5% 0%;
+  padding: 2rem 0rem 4rem 0rem;
 }
 
 .cabecalho--menu--link {
@@ -57,7 +57,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 3% 0% 0% 0%;
+  padding: 2rem 0% 0% 0%;
   margin-bottom: 4rem;
   gap: 3rem;
 }
@@ -132,7 +132,7 @@ body {
 }
 
 .apresentacao--imagem--foto {
-  width: 29rem;
+  width: 26rem;
   z-index: 2;
   border-radius: 5%;
   bottom: 50%;
@@ -140,7 +140,7 @@ body {
 
 .apresentacao--imagem--index {
   position: absolute;
-  width: 29.25rem;
+  width: 26rem;
   height: 98%;
   bottom: 5%; /* ajuste de posição vertical */
   left: 5%; /* ajuste de posição horizontal */
