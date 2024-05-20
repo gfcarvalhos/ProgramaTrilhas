@@ -57,13 +57,15 @@ body {
   display: flex;
   justify-content: center;
   padding: 3% 0% 0% 0%;
+  margin-bottom: 4rem;
+  gap: 8%;
 }
 
 .apresentacao--texto {
   width: 50%;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .apresentacao--texto--titulo {
@@ -108,6 +110,7 @@ body {
   color: var(--cor-primaria);
   font-weight: 400;
   font-size: 1.5rem;
+  gap: 2%;
 }
 
 .apresentacao--texto--links--externo:hover {
@@ -121,16 +124,17 @@ body {
 
 .apresentacao--imagem {
   position: relative;
+  width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .apresentacao--imagem--foto {
-  width: 29.25rem;
-  height: auto;
+  width: 29rem;
   z-index: 2;
   border-radius: 5%;
+  bottom: 50%;
 }
 
 .apresentacao--imagem--index {
@@ -146,6 +150,25 @@ body {
 
 .rodape {
   display: flex;
-  justify-content: center;
-  padding: 0%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2%;
+  border-top: 3px solid var(--cor-primaria);
+}
+
+.rodape--imagem {
+  width: 8%;
+}
+
+.rodape--texto {
+  font-family: var(--fonte-secundaria);
+  font-size: 1rem;
+  font-weight: 400;
+  padding-top: 2%;
+}
+
+.rodape--texto-instagram {
+  text-decoration: none;
+  color: var(--cor-primaria);
 }
