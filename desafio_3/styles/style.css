@@ -6,6 +6,8 @@
   --cor--primaria-codigo: invert(45%) sepia(26%) saturate(3089%)
     hue-rotate(211deg) brightness(95%) contrast(90%);
   --cor-secundaria: #f6f6f6;
+  --cor-secundaria-codigo: invert(100%) sepia(0%) saturate(176%)
+    hue-rotate(184deg) brightness(114%) contrast(93%);
 
   --fonte-primaria: 'Do Hyeon', sans-serif;
   --fonte-secundaria: 'Lato', sans-serif;
@@ -26,6 +28,7 @@
   justify-content: center;
   gap: 4rem;
   padding: 2rem 0rem 4rem 0rem;
+  position: relative;
 }
 
 .cabecalho--menu--link {
@@ -38,6 +41,31 @@
   color: var(--cor-primaria);
   font-weight: 400;
   font-size: 1.5rem;
+}
+
+.cabecalho--menu--link-ativo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10%;
+  text-decoration: none;
+  font-family: var(--fonte-primaria);
+  color: var(--cor-primaria);
+  font-weight: 400;
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.cabecalho--menu--link-ativo::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: var(--cor-primaria);
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  z-index: -1;
 }
 
 .cabecalho--menu--image {
