@@ -94,7 +94,8 @@ body {
   width: 34.25rem;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2rem;
+  text-align: justify;
 }
 
 .apresentacao--texto--titulo {
