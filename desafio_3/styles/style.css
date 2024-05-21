@@ -87,7 +87,7 @@ body {
   justify-content: center;
   padding: 2rem 0% 0% 0%;
   margin-bottom: 4rem;
-  gap: 3rem;
+  gap: 10rem;
 }
 
 .apresentacao--texto {
@@ -96,6 +96,14 @@ body {
   flex-direction: column;
   gap: 2rem;
   text-align: justify;
+}
+
+.apresentacao--texto-coluna {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 10rem 0rem 10rem;
+  text-align: justify;
+  gap: 2rem;
 }
 
 .apresentacao--texto--titulo {
@@ -176,6 +184,12 @@ body {
   border-radius: 5%;
   border: 3px solid var(--cor-primaria);
   z-index: 1;
+}
+
+.apresentacao--projetos {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.1rem;
 }
 
 .rodape {
