@@ -122,7 +122,6 @@ body {
 .apresentacao--texto-coluna {
   display: flex;
   flex-direction: column;
-  padding: 0rem 10rem 0rem 10rem;
   text-align: justify;
   gap: 2rem;
 }
@@ -200,8 +199,8 @@ body {
   position: absolute;
   width: 26rem;
   height: 98%;
-  bottom: 5%; /* ajuste de posição vertical */
-  left: 5%; /* ajuste de posição horizontal */
+  bottom: 2rem; /* ajuste de posição vertical */
+  left: 2rem; /* ajuste de posição horizontal */
   border-radius: 5%;
   border: 3px solid var(--cor-primaria);
   z-index: 1;
@@ -215,7 +214,7 @@ body {
 }
 
 .apresentacao--texto-coluna {
-  width: 63.5rem;
+  width: 78.6rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -233,7 +232,7 @@ body {
   width: 23rem;
   height: 98%;
   bottom: -2.5%; /* ajuste de posição vertical */
-  left: -11%; /* ajuste de posição horizontal */
+  left: 1%; /* ajuste de posição horizontal */
   border-radius: 16px;
   border: 3px solid var(--cor-primaria);
   z-index: -1;
@@ -244,7 +243,7 @@ body {
   width: 23rem;
   height: 98%;
   bottom: -2.5%; /* ajuste de posição vertical */
-  left: 32.5%; /* ajuste de posição horizontal */
+  left: 36%; /* ajuste de posição horizontal */
   border-radius: 5%;
   border: 3px solid var(--cor-primaria);
   z-index: -1;
@@ -255,7 +254,7 @@ body {
   width: 23rem;
   height: 98%;
   bottom: -2.5%; /* ajuste de posição vertical */
-  left: 76%; /* ajuste de posição horizontal */
+  left: 71.5%; /* ajuste de posição horizontal */
   border-radius: 5%;
   border: 3px solid var(--cor-primaria);
   z-index: -1;
@@ -284,4 +283,62 @@ body {
 .rodape--texto-instagram {
   text-decoration: none;
   color: var(--cor-primaria);
+}
+
+@media (max-width: 360px) {
+  .cabecalho--menu {
+    justify-content: center;
+    width: auto;
+  }
+
+  .apresentacao {
+    flex-direction: column-reverse;
+    gap: 3rem;
+  }
+
+  .apresentacao--texto {
+    width: auto;
+  }
+
+  .apresentacao--texto-coluna {
+    width: auto;
+  }
+
+  .apresentacao--imagem--index {
+    width: 19rem;
+  }
+
+  .apresentacao--imagem--foto {
+    width: 19rem;
+  }
+
+  .apresentacao--projetos {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .apresentacao--projetos--imagem {
+    width: 19rem;
+  }
+
+  .apresentacao--projetos--imagem-borda1 {
+    width: 17.5rem;
+    height: 26%;
+    left: 2rem;
+    bottom: 37rem;
+  }
+
+  .apresentacao--projetos--imagem-borda2 {
+    width: 17.5rem;
+    height: 26%;
+    left: 2rem;
+    bottom: 18rem;
+  }
+
+  .apresentacao--projetos--imagem-borda3 {
+    width: 17.5rem;
+    height: 26%;
+    left: 2rem;
+    bottom: -0.5rem;
+  }
 }
